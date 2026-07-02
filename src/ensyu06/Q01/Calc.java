@@ -1,0 +1,14 @@
+package ensyu06.Q01;
+
+import static ensyu06.Q01.CalcLogic.hiku;
+import static ensyu06.Q01.CalcLogic.tasu;
+
+public class Calc {
+    public static void main(String[] args) {
+        int a = 10; int b = 2;
+        int total  = tasu(a,b);
+        int delta = hiku(a,b);
+        System.out.println("足すと" + total + "、引くと" + delta);
+    }
+
+}
